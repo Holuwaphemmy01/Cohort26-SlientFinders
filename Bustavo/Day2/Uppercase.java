@@ -3,7 +3,7 @@ public class Uppercase{
 	public static void main (String[]args){
 		Scanner input = new Scanner(System.in);
 	
-		System.out.print(getUppercase("the lord is good"));
+		System.out.print(getUppercase("i am a boy"));
 
 
 		}
