@@ -2,9 +2,6 @@ function convertStringToUpper(str){
 	return str.toUpperCase();
 }
 
-
-//m
-
-
 let name = "The lord is good";
+convertStringToUpper(name);
 console.log(convertStringToUpper(name));
