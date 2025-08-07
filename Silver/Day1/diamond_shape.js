@@ -1,20 +1,21 @@
 let number = 5;
-for(let i = 1; i <= number; i++) {
+for(let row = 1; row <= number; row++) {
 let line = '';
-line += ' '.repeat(number - i)
-for(let j = 1; j <= i; j++){
-line += j;}
-for(let k = i - 1; k >= 1; k--){
-line += k;} 
+line += ' '.repeat(number - row)
+for(let increasing_count = 1; increasing_count <= row; increasing_count++){
+line += increasing_count;}
+for(let decreasing_count = row - 1; decreasing_count >= 1; decreasing_count--){
+line += decreasing_count;} 
 console.log(line);
 }
-for(let i = 1; i <= 4; i++){
+
+
+for(let row = 1; row <= 4; row++){
 let space = '';
-space += ' '.repeat(0 + i);
-for(let j = 1; j <= number - i; j++){
-space += j;}
-//console.log(space)
-for(let k = 4 - i; k >= 1; k--){
-space += k;}
+space += ' '.repeat(0 + row);
+for(let increasing_count = 1; increasing_count <= number - row; increasing_count++){
+space += increasing_count;}
+for(let decreasing_count = 4 - row; decreasing_count >= 1; decreasing_count--){
+space += decreasing_count;}
 console.log(space);
 } 
