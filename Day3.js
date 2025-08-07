@@ -1,5 +1,11 @@
-function stringToArray(str) {
-    return str.split(" ");
+function arrayToString(word){
+	return word.split(" ")
+
 }
 
-console.log(stringToArray("I love programming")); 
+let input = "i love programming"
+
+console.log(arrayToString(input))
+
+
+
