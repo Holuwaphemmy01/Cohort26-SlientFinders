@@ -1,0 +1,14 @@
+function surveyResults(arrayOfResultsScore) {
+  let scoresAboveEighty = [];
+
+  for (let countScores = 0; countScores < arrayOfResultsScore.length; countScores++) {
+    let customerScore = arrayOfResultsScore[countScores];
+    if (customerScore >= 80) {
+      scoresAboveEighty.push(customerScore);
+    }
+  }
+
+  return scoresAboveEighty;
+}
+
+console.log(surveyResults([75, 82, 90, 67, 88]));
