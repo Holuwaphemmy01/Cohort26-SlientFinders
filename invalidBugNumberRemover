@@ -15,3 +15,15 @@ function removeInvalidNumber(arrayOfBugsReport) {
   return validReport;
 }
 
+let bugsArray = [
+  { name: "John", bugs: 7 },
+  { name: "Abdul", bugs: 4 },
+  { name: "Ahmed", bugs: 3 },
+  { name: "Buhari", bugs: 5 },
+  { name: "Bisi", bugs: 3 },
+  { name: "Bola", bugs: 4 },
+  { name: "Ify", bugs: 8 },
+  { name: "Chioma", bugs: 0 }
+];
+
+console.log(removeInvalidNumber(bugsArray));
