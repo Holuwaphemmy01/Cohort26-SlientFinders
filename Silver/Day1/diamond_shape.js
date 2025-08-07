@@ -1,6 +1,6 @@
 let number = 5;
 for(let i = 1; i <= number; i++) {
-let line = '     ';
+let line = '';
 line += ' '.repeat(number - i)
 for(let j = 1; j <= i; j++){
 line += j;}
@@ -9,7 +9,7 @@ line += k;}
 console.log(line);
 }
 for(let i = 1; i <= 4; i++){
-let space = '     ';
+let space = '';
 space += ' '.repeat(0 + i);
 for(let j = 1; j <= number - i; j++){
 space += j;}
