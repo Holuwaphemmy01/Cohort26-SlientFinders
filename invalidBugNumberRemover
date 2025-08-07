@@ -1,0 +1,17 @@
+function removeInvalidNumber(arrayOfBugsReport) {
+  let validReport = [];
+  for (let countValidEntry = 0; countValidEntry < arrayOfBugsReport.length; countValidEntry++) {
+    let validBugs = [];
+
+    for (let bugNumber of arrayOfBugsReport[countValidEntry]) {
+      if (bugNumber <= 5) {
+        validBugs.push(bugNumber);
+      }
+    }
+
+    validReport.push(validBugs);
+  }
+
+  return validReport;
+}
+
