@@ -1,6 +1,6 @@
 function loveCalculator(farred, joy) {
-let fareedFlowerPetals = (Math.random() * 10);
-let joyFlowerPetals = (Math.random() * 10);
+let fareedFlowerPetals = (Math.floor(Math.random() * 10));
+let joyFlowerPetals = (Math.floor(Math.random() * 10));
 if (fareedFlowerPetals % 2 == 0 && joyFlowerPetals % 2 != 0){
 return true;
 }
