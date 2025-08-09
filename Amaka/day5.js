@@ -5,8 +5,8 @@ function isInLove(petal1, petal2){
 		return false;
 }
 
-let timmyPetal = 43;
-let sarahPetal = 44;
+let timmyPetal = 47;
+let sarahPetal = 41;
 console.log(isInLove(timmyPetal, sarahPetal));
 
 
