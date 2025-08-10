@@ -7,7 +7,7 @@ for (let markScored in customerFolderPack) {
 	  }
 	}
 for (let index = 0; index < loyalCustomers.length; index++) {
-  for (let mark = index + 1;mark < loyalCustomers.length; mark++) {
+  for (let mark = index + 1; mark < loyalCustomers.length; mark++) {
     if (loyalCustomers[index].score < loyalCustomers[mark].score) {
       let temporary = loyalCustomers[index];
       loyalCustomers[index] = loyalCustomers[mark];
@@ -16,7 +16,7 @@ for (let index = 0; index < loyalCustomers.length; index++) {
  	 }
 	}
 
-return loyalCustomers;
+return [loyalCustomers]
 }
 
 let customerFolderPack = [

@@ -32,12 +32,7 @@ console.log(month);
 	case 11: console.log( 11+ "  November,   Is in the forth Quater" ); break;
 	case 12: console.log(12 + "  December,   Is in the forth Quater" ); break;
 	default : console.log(" Not a correct input" ); 
-
-
-		
-	
 	}
-
 return option;
 }
 
