@@ -1,19 +1,18 @@
-//let doh = "Doh";
-//function stringsPermutationsOfCapitalizations(string){
-//let string = "doh";
-//for (index = 0; index < string.length; index++){
-let JOURNAL = ["this", "is", "a", "boy"] 
- for (let i = 0; i < JOURNAL.length; i++) {
- let entry = JOURNAL[i];
- // Do something with entry
- }
- for (let entry of JOURNAL) {
- console.log(`${entry.events.length} events.`);
- }
-//}
+function stringsPermutationsOfCapitalizations(string){
+let stringArrayPermutations = [' '];
 
+for (index = 0; index < string.length; index++){
+let char  = string[index];
+let results = [];
 
-//} 
- 
- 
-//doh.toUpperCase);
+for (let count = 0; count < stringArrayPermutations.length; count++){
+let combination = stringArrayPermutations[count];
+results.push(combination + char.toLowerCase());
+results.push(combination + char.toUpperCase());
+}
+stringArrayPermutations = results;
+}
+return stringArrayPermutations;
+}
+
+console.log(stringsPermutationsOfCapitalizations("doh"));
