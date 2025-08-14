@@ -1,0 +1,5 @@
+function getHighestScore(scores) {
+let
+
+
+}
