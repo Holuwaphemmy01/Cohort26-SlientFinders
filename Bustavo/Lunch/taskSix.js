@@ -1,10 +1,15 @@
 function createobject(array){
+	  	newObject = {}
 	for(let count = 0; count < array.length;count++){
-			fname = array[count] 
-		array[count] = {fname: array[count].length}
-
+		newObject[array[count]] = array[count].length;
+		
 		}
-	return array
+	return newObject
 	}
+
+
 array = ["red","Yellow","Blue"]
 console.log(createobject(array))
+
+
+	
