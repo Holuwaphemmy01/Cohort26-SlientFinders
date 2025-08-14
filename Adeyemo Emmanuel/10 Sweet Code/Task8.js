@@ -1,7 +1,9 @@
 function findTheOldest(data) {
 let oldest = users[0];
 for (let count = 0; count < data.length; count++) {
-	if (users[count].Age > oldest.Age) {		
+	if (users[count].Age < oldest.Age) {	
+		continue;	
+	} else {
 		oldest = users[count];
 	}
 }
