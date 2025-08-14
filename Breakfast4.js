@@ -1,3 +1,4 @@
+
 function Breakfast4(user_input) {
 for(let count = 1; count < user_input;count++) {
  if( user_input > 0 && user_input <= 3) {
@@ -18,4 +19,3 @@ for(let count = 1; count < user_input;count++) {
  }
  
  let user_input = 2;
- console.log(Breakfast4(user_input));
