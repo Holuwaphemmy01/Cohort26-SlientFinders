@@ -15,25 +15,3 @@ const questions = [
 	options: ["170", "280", "190", "180" ],
 	Answer: 3 },
 		];
-
-	let score = 0;
-
-	for(let i = 0; i < questions.length; i++){
-		let q = questions[i];
-		let optionsText = "";
-		for(let j = 0; j < q.options.length;j++){
-		optionsText += `${j + 1}. ${q.options[j]}\n`;
-	}
-
-	let userAnswer = parseInt(prompt(`${q.question}\n${optionsText}`));
-
-	if(userAnswer === q.answer){
-		alert("Correct");
-		score++;
-		} else{
-		alert(`Wrong! The correct answer was ${q.answer}. ${q.options[q.answer - 1]}`);
-			}
-	
-	}
-
-alert(`you scored ${} out of ${questions.length}!`);
