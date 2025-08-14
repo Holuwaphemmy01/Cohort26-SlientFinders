@@ -1,0 +1,6 @@
+function object (array1,array2){
+	newarray = array1
+	for(count = array1.length; count < 
+
+
+	}
