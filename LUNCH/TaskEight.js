@@ -1,0 +1,1 @@
+const users = [{name: "ALICE", Age:25}, {name: "Bob", Age:17}, {name: "Charlie", Age:30}];.
