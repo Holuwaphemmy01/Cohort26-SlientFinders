@@ -5,11 +5,10 @@ let highest = studentDetails[0]
 for (count = 0; count < studentDetails.length; count++){
 for (let property in studentDetails[count]){
 
-if (property === "Score" && property.studentDetails[count]) {
+if (property === "Score" && property > highest) {
 
- highest = studentDetails[count]
-
-console.log(`${property}: ${studentDetails[property]}`)
+ highest = property
+console.log(`${highest}: ${studentDetails[highest]}`)
 
 }
 
