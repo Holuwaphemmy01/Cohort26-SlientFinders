@@ -1,4 +1,4 @@
-9. Write a function that counts how many times each elements appears in an array and returns an object with element counts
+// 9. Write a function that counts how many times each elements appears in an array and returns an object with element counts
 
 function countElements(arr) {
     let counts = {};
