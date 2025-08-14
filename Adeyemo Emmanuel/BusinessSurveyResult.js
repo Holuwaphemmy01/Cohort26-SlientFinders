@@ -27,7 +27,17 @@ return newArray;
 
 
 
-let customerScore = [{name: "Peter", score: 100}, {name: "Ikka", score: 80}, {name: "Makaveli", score: 90},
-{name: "Malik", score: 98},{name: "Ramon", score: 83}, {name: "Lakiki", score: 76}, {name: "Emma", score: 70}, {name: "Tope", score: 66}];
+let customerScore = [{name: "Peter", score: 90}, {name: "Ikka", score: 99}, {name: "Makaveli", score: 100},
+{name: "Malik", score: 98},{name: "Ramon", score: 83}, {name: "Lakiki", score: 76}, {name: "Emma", score: 70}, {name: "Tope", score: 66}, {name: "Tipe", score: 86}, {name: "tunde", score: 96}, {name: "Titi", score: 86}, {name: "bape", score: 96}, {name: "basit", score: 66}, {name: "Tayo", score: 86}, {name: "babatunde", score: 84}, {name: "Trevor", score: 90}];
 
 console.log(businessSurveyResult(customerScore));
+
+
+
+
+
+
+
+			n	n
+
+

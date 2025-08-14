@@ -10,4 +10,5 @@ function mumuLover(numberOne, numberTwo) {
 }
 
 
-console.log(mumuLover(2,2));
+
+console.log(mumuLover(3,2));

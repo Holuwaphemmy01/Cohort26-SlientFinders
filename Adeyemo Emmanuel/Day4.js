@@ -36,5 +36,5 @@ return number
 
 
 
-console.log(SplitYear(4));
+console.log(SplitYear(12));
 
