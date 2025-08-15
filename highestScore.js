@@ -1,17 +1,17 @@
-function highestScore(number) { 
-	let highest = 0
-	for(let value in number) {
-		for(let index in value) {
-			if(value.Score > highest) {
-				highest = value.Score
-			}
-		}
-	}
-return highest
+function highestScore(number) {  
+    let highest = number[0].Score;
+    for (let i = 0; i < number.length; i++) {
+        if (number[i].Score > highest) {
+            highest = number[i].Score;
+        }
+    }
+    return highest;
 }
+
 let data = [ 
-{Name: "Feyi", Score: 99}, 
-{Name: "Ade", Score: 77}, 
-{Name: "Hassan", Score: 89} 
-]
-console.log(highestScore(data))
+    {Name: "Feyi", Score: 99}, 
+    {Name: "Ade", Score: 77}, 
+    {Name: "Hassan", Score: 89} 
+];
+
+console.log(highestScore(data)); 
