@@ -1,5 +1,5 @@
 function getEvenAndOddObjectOf(arrayOfNumbers){
-	let count = {};
+	let count = { even: [], odd: [] };
 	for(let index = 0; index < arrayOfNumbers.length; index++){
 		let element = arrayOfNumbers[index];
 		if (element % 2 == 0){
