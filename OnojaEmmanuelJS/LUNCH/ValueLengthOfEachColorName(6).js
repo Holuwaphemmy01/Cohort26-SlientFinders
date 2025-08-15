@@ -1,9 +1,10 @@
-let colour = {"red" : 3 ,
-		"green" : 5,
-		"blue"  :  4,
-								}
-								
-	for (let type in colour){
-	console.log(`${type}: ${colour[type]}`)
-	}
-	
+const colours = ["red", 
+		"green" ,
+		"blue" ,
+								]
+	const colourLength = {}					
+	for (let index in colours){
+		colourLength[colours[index]] =colours[index].length
+		}
+	console.log(colourLength)
+
