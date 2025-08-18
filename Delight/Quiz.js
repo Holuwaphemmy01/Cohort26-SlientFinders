@@ -10,7 +10,7 @@ function get_answers(options, choice) {
 
     console.log("Options:");
     for (let key in options) {
-        console.log(${key}: ${options[key]});
+        console.log(`${key}: ${options[key]}`);
     }
 
     
@@ -22,7 +22,7 @@ function get_answers(options, choice) {
         console.log("Incorrect!");
     }
 
-    console.log(Correct: ${correctCount}, Incorrect: ${incorrectCount});
+    console.log(`Correct: ${correctCount}, Incorrect: ${incorrectCount}`);
 }
 
 let options = {
@@ -33,4 +33,4 @@ let options = {
 };
 
 quiz(question);
-get_answers(options, 1);
+get_answers(options, 0);
