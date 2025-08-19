@@ -38,3 +38,47 @@ return option;
 
 console.log(getMonthQuater(1));
 
+
+
+
+1. Which tech giant recently reached a $4 trillion valuation?
+A) Apple
+B) Google
+C) Microsoft
+D) Amazon
+
+✅ Answer: C) Microsoft
+
+2. Which company won a $10 billion U.S. government contract for data analytics?
+A) IBM
+B) Palantir
+C) Oracle
+D) Cisco
+
+✅ Answer: B) Palantir
+
+3. What is the main reason for the Nasdaq’s recent all-time high?
+A) Oil prices
+B) AI boom
+C) Crypto rally
+D) Housing market
+
+✅ Answer: B) AI boom
+
+4. When is the nomination deadline for the TechRadar Choice Awards 2025?
+A) August 10
+B) August 15
+C) August 22
+D) August 31
+
+✅ Answer: C) August 22
+
+5. Which African city was ranked the top emerging tech hub in 2025?
+A) Nairobi
+B) Accra
+C) Johannesburg
+D) Lagos
+
+✅ Answer: D) Lagos
+
+Let me know 

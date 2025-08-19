@@ -1,12 +1,17 @@
-function arrayCleaning(List){
-		let trackingList = [];
-		for (index = 0; index < List.length; index++){
-		if (List[index] >= 1 && List[index] < 6){
-			trackingList.push(List[index]);	
-		}
- 	 }
-	return trackingList;
+function addEvenNumbers(array){
+
+for (let count = 0; count < array.length; count++){
+let sum = 0
+if ( numbers % 2 == 0){
+sum += 0;
 }
-	const list =  [0,1,2,3,4,5,6,7];
-	let result = arrayCleaning(list);
-	console.log(result);
+}
+
+return sum;
+}
+
+
+
+const numbers = [2,3,4,5,6,8,7,9,7,4,2,4,];
+let result = addEvenNumbers(numbers);
+console.log(result)

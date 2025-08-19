@@ -124,4 +124,3 @@ A. Which tech giant recently reached a $4 trillion valuation?
 
   }
 }
-
