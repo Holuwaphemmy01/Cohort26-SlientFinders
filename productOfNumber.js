@@ -1,8 +1,7 @@
 function productOfNumbers(number) {
     let product = 1;
     for (let count = 0; count < number.length; count++) {
-        product *= number[count]; 
-    }
+        product *= number[count];     }
     return product;
 }
 
