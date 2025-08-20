@@ -1,10 +1,9 @@
-function toRepeat(words){
+function getRepeat(words){
 let answer = '';
-for(let count = 1; count <= word.length; count++){
+for(let count = 0; count < words.length; count++){
 answer += words[count].repeat(2);
 }
 return answer;
 }
-
-
-console
+let word ='Hello World'
+console.log(getRepeat(word));
