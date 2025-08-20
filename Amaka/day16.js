@@ -6,4 +6,4 @@ function getIntegersFrom(number){
 	return arrayOfNumbers;
 }
 
-console.log(getIntegersFrom(5));
+console.log(getIntegersFrom(10));
