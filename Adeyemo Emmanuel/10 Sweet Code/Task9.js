@@ -7,13 +7,12 @@ for(let count = 0; count < number.length; count++) {
 		evenArray.push(count);
 	}
 }
-//console.log(evenArray)
 for (let count = 0; count < number.length; count++) {
 	if (count % 2 == 1) {
 		oddArray.push(count);
 		}
 	}
-//console.log(oddArray)
+
 return [evenArray, oddArray]
 }
 
