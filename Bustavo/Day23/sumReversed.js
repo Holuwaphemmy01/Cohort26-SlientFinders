@@ -1,14 +1,13 @@
 function getArray(array){
-	newArray = []
 	sum = array.reduce((sum, element) =>sum + element)
-		newArray.push(sum)
-	for(var count = 0; count < array.length;count++){
-			sum-= array[count]
-			newArray.push(sum)
-			}
-		return newArray
-
+	total = sum
+	 array = array.map((element) => sum -= element)
+		array.unshift(total)
+		return array
 	}
 
 arrayVal = [744125, 935, 407, 454, 430, 90, 144, 6710213, 889, 810, 2579358]
+arrayVal2 = [1,2,3,4,5,6]
 console.log((getArray(arrayVal)))
+console.log((getArray(arrayVal2)))
+
